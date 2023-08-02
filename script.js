@@ -14,12 +14,10 @@ function search() {
         }else if(answer<perem){
             high + 1;
         }
-
         if (high>low) {
             answer++
         } else {
             answer--
         }
-        console.log('Верно');
     }
 }
