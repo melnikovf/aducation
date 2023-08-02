@@ -1,6 +1,25 @@
+let low = 0;
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+let high = 0;
 
-let arrMin =
+let perem = 3;
 
-console.log(arr[0],arr[8]);
+function search() {
+    
+    for (let answer = 6; ;) {
+        if (answer === perem) {
+            console.log('Верно');
+        }else if(answer>perem){
+            low + 1;
+        }else if(answer<perem){
+            high + 1;
+        }
+
+        if (high>low) {
+            answer++
+        } else {
+            answer--
+        }
+        console.log('Верно');
+    }
+}
